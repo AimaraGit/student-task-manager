@@ -106,6 +106,7 @@ def menu():
         else:
             print("Invalid choice")
 
+# Save tasks to JSON file
 def save_tasks():
     data = []
 
