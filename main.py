@@ -1,6 +1,8 @@
 import json
 
 print("Student Task Manager CLI")
+
+# Task class represents a single task
 class Task:
     def __init__(self, id, title, description, status="Pending"):
         self.id = id
