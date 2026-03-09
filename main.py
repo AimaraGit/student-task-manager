@@ -13,6 +13,8 @@ class Task:
         self.status = "Completed"
 
 tasks = []
+
+# Function to add new task
 def add_task():
     title = input("Enter task title: ")
     description = input("Enter description: ")
