@@ -39,6 +39,7 @@ def list_tasks():
     for task in tasks:
         print(f"{task.id} | {task.title} | {task.description} | {task.status}")
 
+# Mark task as completed
 def mark_completed():
 
     try:
