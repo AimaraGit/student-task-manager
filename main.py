@@ -1,6 +1,6 @@
 import json
 
-print("Student Task Manager")
+print("Student Task Manager CLI")
 class Task:
     def __init__(self, id, title, description, status="Pending"):
         self.id = id
@@ -92,11 +92,8 @@ def menu():
         elif choice == "4":
             delete_task()
 
-
-
         elif choice == "5":
             save_tasks()
-
 
         elif choice == "6":
             save_tasks()
@@ -106,7 +103,6 @@ def menu():
             print("Invalid choice")
 
 def save_tasks():
-
     data = []
 
     for task in tasks:
